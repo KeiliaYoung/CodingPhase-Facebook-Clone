@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Facebook Clone</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1">
+    <link rel="stylesheet" href="css/font5/all.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo-section">
+            <div class="header__logo-icon">
+                <i class="fab fa-facebook"></i>
+            </div>
+            <div class="header__logo-search">
+                <i class="fas fa-search"></i>
+                <input type="text">
+            </div>
+            <div class="header__mobile-button">
+                <i class="fas fa-bars"></i>
+            </div>
+
+        </div>
+
+        <div class="header__menu-tabs">
+            <div class="header__menu-tab header__menu-tab--active">
+                <i class="fas fa-home"></i>
+            </div>
+            <div class="header__menu-tab">
+                <i class="fas fa-flag">
+                    <div class="header__notification-bubble">
+                        3
+                    </div>
+                </i>
+            </div>
+            <div class="header__menu-tab">
+                <i class="fas fa-tv">
+                    <div class="header__notification-bubble">
+                        9+
+                    </div>
+                </i>
+            </div>
+            <div class="header__menu-tab">
+                <i class="fas fa-store"></i>
+            </div>
+            <div class="header__menu-tab">
+                <i class="fas fa-users">
+                    <div class="header__notification-bubble">
+                        5
+                    </div>
+                </i>
+            </div>
+        </div>
+        <div class="header__account">
+            <div class="header__actions">
+                <img src="https://randomuser.me/api/portraits/women/46.jpg" class="header__user-img">
+                <span class="header__user-name">Jess Sun</span>
+                <a href="#" class="header__circle-link">
+                    <i class="header__link-icon fas fa-plus"></i>
+                </a>
+                <a href="#" class="header__circle-link">
+                    <i class="header__link-icon fab fa-facebook-messenger">
+                        <div class="header__link-icon-bubble">
+                            8
+                        </div>
+                    </i>
+                </a>
+                <a href="#" class="header__circle-link">
+                    <i class="header__link-icon fas fa-bell">
+                        <div class="header__link-icon-bubble">
+                            16
+                        </div>
+                    </i>
+                </a>
+                <a href="#" class="header__circle-link">
+                    <i class="header__link-icon fas fa-sort-down"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="content-area content-area--feed">
+        <section class="sidenav">
+            <div class="sidenav__item">
+                <img src="https://randomuser.me/api/portraits/women/46.jpg" class="sidenav__item-img">
+                <span class="sidenav__item-title">
+                    Jess Sun
+                </span>
+            </div>
+            <div class="sidenav__item">
+                <div class="sidenav__item-icon">
+                    <i class="fas fa-user-friends"></i>
+                </div>
+                <span class="sidenav__item-title">
+                    Friends
+                </span>
+            </div>
+            <div class="sidenav__item">
+                <div class="sidenav__item-icon">
+                    <i class="fas fa-flag"></i>
+                </div>
+                <span class="sidenav__item-title">
+                    Pages
+                    <span class="sidenav__item-notification">
+                        <div class="sidenav__item-notification-circle"></div>
+                        9+ new
+                    </span>
+                </span>
+            </div>
+            <div class="sidenav__item">
+                <div class="sidenav__item-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <span class="sidenav__item-title">
+                    Groups
+                    <span class="sidenav__item-notification">
+                        <div class="sidenav__item-notification-circle"></div>
+                        3 new
+                    </span>
+                </span>
+            </div>
+            <div class="sidenav__item">
+                <div class="sidenav__item-icon">
+                    <i class="fas fa-store"></i>
+                </div>
+                <span class="sidenav__item-title">
+                    Marketplace
+                </span>
+            </div>
+            <div class="sidenav__item">
+                <div class="sidenav__item-icon sidenav__item-icon--circle">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <span class="sidenav__item-title">
+                    See More
+                </span>
+            </div>
+            <div class="sidenav__line"></div>
+            <span class="sidenav__heading-title">
+                Your Shortcuts
+            </span>
+            <div class="sidenav__item">
+                <div class="sidenav__item-icon sidenav__item-icon--circle-white">
+                    <i class="fas fa-user-friends"></i>
+                </div>
+                <span class="sidenav__item-title">
+                    CodingPhase Students
+                </span>
+            </div>
+            <div class="sidenav__item">
+                <div class="sidenav__item-icon sidenav__item-icon--circle-white">
+                    <i class="fas fa-user-friends"></i>
+                </div>
+                <span class="sidenav__item-title">
+                    CodingPhase ASAP Developers
+                </span>
+            </div>
+            <div class="sidenav__item">
+                <div class="sidenav__item-icon sidenav__item-icon--circle-white">
+                    <i class="fas fa-user-friends"></i>
+                </div>
+                <span class="sidenav__item-title">
+                    CodingPhase
+                </span>
+            </div>
+            <div class="sidenav__item">
+                <img src="https://nmaam.org/wp-content/uploads/2017/02/Erykah-Badu-2017.jpg" class="sidenav__item-img">
+                <span class="sidenav__item-title">
+                    Neo-Soul Souls
+                </span>
+            </div>
+            <div class="sidenav__item">
+                <div class="sidenav__item-icon sidenav__item-icon--circle-white">
+                    <i class="fas fa-user-friends"></i>
+                </div>
+                <span class="sidenav__item-title">
+                    ClickFunnels (Official)
+                </span>
+            </div>
+            <div class="sidenav__item">
+                <img src="https://sites.gsu.edu/nmack6/files/2019/11/5F1EC0E6-1A17-407D-9B68-738259D53707.jpeg"
+                    class="sidenav__item-img">
+                <span class="sidenav__item-title">
+                    Black Girl Magic
+                </span>
+            </div>
+            <div class="sidenav__item">
+                <div class="sidenav__item-icon sidenav__item-icon--circle">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <span class="sidenav__item-title">
+                    See More
+                </span>
+            </div>
+
+        </section>
+        <section class="feed">
+            <div class="stories">
+                <div class="stories__video-container">
+                    <img class="stories__bg"
+                        src="https://i.pinimg.com/originals/84/21/1c/84211c606a89f87dd427de8516e6428c.jpg">
+                    <div class="stories__title">
+                        <div class="stories__new-btn">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                        Create A Story
+                    </div>
+                </div>
+                <div class="stories__video-container stories__video-container--plain">
+                    <img class="stories__bg"
+                        src="https://64.media.tumblr.com/dbb13124d3b84e24d4e95f3bb58a76cc/tumblr_o2rrxe19c91t96koxo1_400.gifv">
+                    <div class="stories__title">
+                        <img class="stories__user" src="https://randomuser.me/api/portraits/women/17.jpg">
+                        Zen <br> Aali
+                    </div>
+                </div>
+                <div class="stories__video-container stories__video-container--plain">
+                    <img class="stories__bg" src="https://c.tenor.com/QoFGn3Y9eq0AAAAC/strut-beyonce.gif">
+                    <div class="stories__title">
+                        <img class="stories__user" src="https://randomuser.me/api/portraits/men/85.jpg">
+                        Ben <br> Tang
+                    </div>
+                </div>
+                <div class="stories__video-container stories__video-container--plain">
+                    <img class="stories__bg" src="https://c.tenor.com/LUgAaOPlSlUAAAAC/m-jackson-michael-jackson.gif">
+                    <div class="stories__title">
+                        <img class="stories__user" src="https://randomuser.me/api/portraits/women/99.jpg">
+                        Jackie <br> Mic
+                    </div>
+                </div>
+                <div class="stories__video-container stories__video-container--plain">
+                    <img class="stories__bg"
+                        src="https://media.tenor.com/bkgox6Rvv4EAAAAC/i-think-you-better-call-tyrone.gif">
+                    <div class="stories__title">
+                        <img class="stories__user" src="https://randomuser.me/api/portraits/women/82.jpg">
+                        Erica <br> Good
+                    </div>
+                </div>
+                <div class="stories__video-container stories__video-container--plain">
+                    <img class="stories__bg" src="https://c.tenor.com/TH6ICdMTmQcAAAAC/nope-usain-bolt.gif">
+                    <div class="stories__title">
+                        <img class="stories__user" src="https://randomuser.me/api/portraits/men/46.jpg">
+                        Bolt <br> Strike
+                    </div>
+                </div>
+                <div class="stories__arrow-icon">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="feed__box submitpost">
+                <div class="newpost">
+                    <img class="newpost__user-img" src="https://randomuser.me/api/portraits/women/46.jpg">
+                    <input type="text" placeholder="What's on your mind Jess?">
+                </div>
+                <div class="hline"></div>
+                <div class="post-types">
+                    <div class="post-types__item">
+                        <i class="fas fa-video"></i>
+                        <span class="post-type__item-title">
+                            Live Video
+                        </span>
+                    </div>
+                    <div class="post-types__item">
+                        <i class="fas fa-photo-video"></i>
+                        <span class="post-type__item-title">
+                            Photo/Video
+                        </span>
+                    </div>
+                    <div class="post-types__item">
+                        <i class="fas fa-laugh-beam"></i>
+                        <span class="post-type__item-title">
+                            Feeling/Activity
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="feed__box photopost">
+                <div class="photopost__info">
+                    <div class="photopost__left">
+                        <img src="https://randomuser.me/api/portraits/men/54.jpg">
+                        <div class="photopost__details">
+                            <span class="photopost__name"> Jack Deen</span>
+                            <span class="photopost__date"> December 17 at 10:45pm
+                                <i class="fas fa-user-friends"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="photopost__description">
+                    Hey, here's the artist I was telling you about, Mereba.
+                </div>
+                <div class="photopost__image">
+                    <img
+                        src="https://sheshreds.com/wp-content/uploads/2020/02/Mereba-PC-Simone-Thompson-Web-3-750x1024.jpg">
+                </div>
+                <div class="photopost__stats">
+                    <div class="photopost__stats-emojis">
+                        <div class="emoji-circle emoji-circle--blue">
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <div class="emoji-circle emoji-circle--red">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="emoji-circle emoji-circle--yellow">
+                            <i class="fas fa-surprise"></i>
+                        </div>
+                        3.3k
+                    </div>
+                    <div class="photopost__stats-share">
+                        788 Comments 73 Shares
+                    </div>
+                </div>
+                <div class="hline"></div>
+                <div class="photopost__actions">
+                    <a href="#" class="photopost__link">
+                        <i class="fas fa-thumbs-up"></i> Like
+                    </a>
+                    <a href="#" class="photopost__link">
+                        <i class="fas fa-comment"></i> Comment
+                    </a>
+                    <a href="#" class="photopost__link">
+                        <i class="fas fa-share"></i> Share
+                    </a>
+                </div>
+                <div class="hline"></div>
+            </div>
+        </section>
+        <section class="rightnav">
+            <div class="rightnav__item">
+                <span class="rightnav__item-title">
+                    Sponsored
+                </span>
+            </div>
+            <div class="hline"></div>
+
+            <div class="rightnav__item">
+                <div class="rightnav__item-details">
+                    <div class="rightnav__header">
+                        <span class="rightnav__item-title">Your Pages
+                        </span>
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+
+                    <div class="rightnav__item-img-name">
+                        <img src="https://c8d8q6i8.stackpathcdn.com/wp-content/uploads/2019/11/Mereba-Contact-Information.jpg"
+                            class="rightnav__item-img">
+                        <span class="rightnav__item-subtitle">
+                            Mereba
+                        </span>
+                    </div>
+                    <div class="rightnav__pages">
+                        <div class="rightnav__item">
+                            <div class="rightnav__item-info">
+                                <div class="rightnav__item-icon">
+                                    <i class="fas fa-comment"></i>
+                                </div>
+                                <span class="rightnav__item-stats">
+                                    17 Messages
+                                </span>
+                            </div>
+                        </div>
+                        <div class="rightnav__item">
+                            <div class="rightnav__item-info">
+                                <div class="rightnav__item-icon">
+                                    <i class="fas fa-bell"></i>
+                                </div>
+                                <span class="rightnav__item-stats">
+                                    20+ Notifications
+                                </span>
+                            </div>
+                        </div>
+                        <div class="rightnav__item">
+                            <div class="rightnav__item-info">
+                                <div class="rightnav__item-icon">
+                                    <i class="fas fa-bullhorn"></i>
+                                </div>
+                                <span class="rightnav__item-stats">
+                                    Create Promotion
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hline"></div>
+
+            <div class="rightnav__item">
+                <div class="rightnav__item-details">
+                    <span class="rightnav__item-title">Friend Requests</span>
+                </div>
+                <a href="#">See All</a>
+            </div>
+            <div class="rightnav__friend-request">
+                <img src="https://randomuser.me/api/portraits/men/55.jpg" class="rightnav__friend-request-img">
+                <div class="rightnav__friend-request-details">
+                    <span class="rightnav__friend-name"> Kirk Burnett</span>
+                    <span class="rightnav__request-time"> 3w </span>
+                    <span class="rightnav__mutual-friends">6 mutual friends</span>
+                </div>
+            </div>
+            <div class="rightnav__friend-request-buttons">
+                <button type="button" class="rightnav__confirm-button">Confirm</button>
+                <button type="button" class="rightnav__delete-button">Delete</button>
+            </div>
+            <div class="hline"></div>
+            <div class="rightnav__item">
+                <span class="rightnav__item-title">Birthdays</span>
+            </div>
+            <div class="rightnav__icon-msg">
+                <i class="fas fa-gift"></i>
+                <span class="rightnav__birthday-message"><span>Zen Aali</span>'s birthday is today.</span>
+            </div>
+
+            <div class="hline"></div>
+
+            <div class="rightnav__item">
+                <span class="rightnav__item-title">Contacts
+                    <span class="rightnav__contact-title-icons">
+                        <i class="fas fa-video"></i>
+                        <i class="fas fa-search"></i>
+                        <i class="fas fa-ellipsis-h"></i>
+                    </span>
+                </span>
+            </div>
+            <div class="rightnav__contact">
+                <div class="rightnav__item-notification-circle"></div>
+                <img src="https://randomuser.me/api/portraits/women/17.jpg" class="">
+                <span class="rightnav__contact-title">
+                    Zen Aali
+                </span>
+            </div>
+            <div class="rightnav__contact">
+                <div class="rightnav__item-notification-circle"></div>
+                <img src="https://randomuser.me/api/portraits/men/85.jpg" alt="">
+                <span class="rightnav__contact-title">
+                    Ben Tang
+                </span>
+            </div>
+            <div class="rightnav__contact">
+                <div class="rightnav__item-notification-circle"></div>
+                <img src="https://randomuser.me/api/portraits/women/99.jpg" alt="">
+                <span class="rightnav__contact-title">
+                    Jackie Mic
+                </span>
+            </div>
+            <div class="rightnav__contact">
+                <div class="rightnav__item-notification-circle"></div>
+                <img src="https://randomuser.me/api/portraits/women/82.jpg">
+                <span class="rightnav__contact-title">
+                    Erica Good
+                </span>
+            </div>
+            <div class="rightnav__contact">
+                <div class="rightnav__item-notification-circle"></div>
+                <img src="https://randomuser.me/api/portraits/men/46.jpg" alt="">
+                <span class="rightnav__contact-title">
+                    Bolt Strike
+                </span>
+            </div>
+            <div class="rightnav__contact">
+                <div class="rightnav__item-notification-circle"></div>
+                <img src="https://randomuser.me/api/portraits/women/58.jpg">
+                <span class="rightnav__contact-title">
+                    Tam Rice
+                </span>
+            </div>
+            <div class="rightnav__contact">
+                <div class="rightnav__item-notification-circle"></div>
+                <img src="https://randomuser.me/api/portraits/men/58.jpg" alt="">
+                <span class="rightnav__contact-title">
+                    Nash Aleeq
+                </span>
+            </div>
+            <div class="rightnav__contact">
+                <div class="rightnav__item-notification-circle"></div>
+                <img src="https://randomuser.me/api/portraits/women/17.jpg" class="">
+                <span class="rightnav__contact-title">
+                    Zen Aali
+                </span>
+            </div>
+            <div class="rightnav__contact">
+                <div class="rightnav__item-notification-circle"></div>
+                <img src="https://randomuser.me/api/portraits/men/85.jpg" alt="">
+                <span class="rightnav__contact-title">
+                    Ben Tang
+                </span>
+            </div>
+            <div class="rightnav__contact">
+                <div class="rightnav__item-notification-circle"></div>
+                <img src="https://randomuser.me/api/portraits/women/99.jpg" alt="">
+                <span class="rightnav__contact-title">
+                    Jackie Mic
+                </span>
+            </div>
+            <div class="rightnav__contact">
+                <div class="rightnav__item-notification-circle"></div>
+                <img src="https://randomuser.me/api/portraits/women/82.jpg">
+                <span class="rightnav__contact-title">
+                    Erica Good
+                </span>
+            </div>
+            <div class="rightnav__contact">
+                <div class="rightnav__item-notification-circle"></div>
+                <img src="https://randomuser.me/api/portraits/men/46.jpg" alt="">
+                <span class="rightnav__contact-title">
+                    Bolt Strike
+                </span>
+            </div>
+            <div class="rightnav__contact">
+                <div class="rightnav__item-notification-circle"></div>
+                <img src="https://randomuser.me/api/portraits/women/58.jpg">
+                <span class="rightnav__contact-title">
+                    Tam Rice
+                </span>
+            </div>
+            <div class="rightnav__contact">
+                <div class="rightnav__item-notification-circle"></div>
+                <img src="https://randomuser.me/api/portraits/men/58.jpg" alt="">
+                <span class="rightnav__contact-title">
+                    Nash Aleeq
+                </span>
+            </div>
+            <div class="rightnav__contact">
+                <div class="rightnav__item-notification-circle"></div>
+                <img src="https://randomuser.me/api/portraits/women/17.jpg" class="">
+                <span class="rightnav__contact-title">
+                    Zen Aali
+                </span>
+            </div>
+            <div class="rightnav__contact">
+                <div class="rightnav__item-notification-circle"></div>
+                <img src="https://randomuser.me/api/portraits/men/85.jpg" alt="">
+                <span class="rightnav__contact-title">
+                    Ben Tang
+                </span>
+            </div>
+            <div class="rightnav__contact">
+                <div class="rightnav__item-notification-circle"></div>
+                <img src="https://randomuser.me/api/portraits/women/99.jpg" alt="">
+                <span class="rightnav__contact-title">
+                    Jackie Mic
+                </span>
+            </div>
+            <div class="rightnav__contact">
+                <div class="rightnav__item-notification-circle"></div>
+                <img src="https://randomuser.me/api/portraits/women/82.jpg">
+                <span class="rightnav__contact-title">
+                    Erica Good
+                </span>
+            </div>
+            <div class="rightnav__contact">
+                <div class="rightnav__item-notification-circle rightnav__item-notification-circle--time">1h</div>
+                <img src="https://randomuser.me/api/portraits/men/46.jpg" alt="">
+                <span class="rightnav__contact-title">
+                    Bolt Strike
+                </span>
+            </div>
+            <div class="rightnav__contact">
+                <div class="rightnav__item-notification-circle"></div>
+                <img src="https://randomuser.me/api/portraits/women/58.jpg">
+                <span class="rightnav__contact-title">
+                    Tam Rice
+                </span>
+            </div>
+            <div class="rightnav__contact">
+                <div class="rightnav__item-notification-circle"></div>
+                <img src="https://randomuser.me/api/portraits/men/58.jpg" alt="">
+                <span class="rightnav__contact-title">
+                    Nash Aleeq
+                </span>
+            </div>
+
+            <div class="hline"></div>
+            <section class="floatingmsg">
+                <div class="floatingmsg__bubble">
+                    <img src="https://randomuser.me/api/portraits/women/30.jpg">
+                    <div class="floatingmsg__notification">
+                        1
+                    </div>
+                </div>
+                <div class="floatingmsg__bubble">
+                    <img src="https://randomuser.me/api/portraits/women/50.jpg">
+                    <div class="floatingmsg__notification">
+                        4
+                    </div>
+                </div>
+                <div class="floatingmsg__bubble">
+                    <img src="https://randomuser.me/api/portraits/women/24.jpg">
+                </div>
+                <div class="floatingmsg__bubble">
+                    <img src="https://randomuser.me/api/portraits/men/36.jpg">
+                    <div class="floatingmsg__notification">
+                        3
+                    </div>
+                </div>
+                <div class="floatingmsg__bubble">
+                    <img src="https://randomuser.me/api/portraits/men/64.jpg">
+                    <div class="floatingmsg__notification">
+                        5
+                    </div>
+                </div>
+
+                <div class="floatingmsg__bubble">
+                    <i class="fas fa-edit"></i>
+                </div>
+            </section>
+        </section>
+
+    </section>
+</body>
+
+</html>w
